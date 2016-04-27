@@ -1,0 +1,594 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html{
+    background-color: none;
+    
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Meyer Reset CSS */
+
+img {
+	max-width: 100%; /*makes images scale with flexible grids*/
+	display: block; /*removes tiny space added in some browsers below images */
+}
+
+html,body { 
+    background: #D1EBFA;
+}
+
+.wrapper{
+    position:relative;
+    width: 100%;
+    max-width: 1200px;
+    height:auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.TheWeeklyBite {
+    position:relative;
+    width: 50%;
+    height:auto;
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top:7px;
+    
+}
+
+.DonateNow {
+    position:absolute;
+    width: 30%;
+    height:auto;
+    float: right;
+    overflow: hidden;
+    background-color:whitesmoke;
+    opacity:.6;
+    z-index:10;
+    margin-top:300px;
+    margin-right:3%;
+    margin-left:68%;
+    border:white solid 1px;
+    
+    
+   
+}
+
+h5{
+    font-family: 'ABeeZee', 'Helvetica', sans-serif;
+	font-size:2em;
+	color:#2080C4;
+	font-style: normal;
+    font-weight: normal;
+	letter-spacing: none;
+	line-height: 1.5em;
+    opacity:1;
+    text-align:center;
+    
+}
+.logo{
+    position:relative;
+    width: 10%;
+    height:auto;
+    float: left;
+    overflow: hidden;
+}
+    
+h1{
+	font-family: 'ABeeZee', 'Helvetica', sans-serif;
+	font-size:3em;
+	color: black;
+	font-style: normal;
+    font-weight: normal;
+	letter-spacing: none;
+	line-height: 1.5em;
+
+}
+
+li{
+    position:relative;
+    font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+    font-style: bold;
+    color:white;
+	font-size:2em;
+    height: auto;
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 9px;
+    border-right: white solid 1px;
+}
+
+.noBorder {
+    border-right: none;
+    
+}
+
+nav{
+    position: relative;
+	background-color: #6CBDC1;
+	width: 100%;
+    height: auto;
+	margin-top: 10px;
+	overflow: hidden; /*fixes problem with top margin in child*/
+    padding-bottom: 8px;
+
+    
+}
+
+
+
+.hero {
+	position: relative;
+	background-color: none;
+	width: 100%;
+    height: auto;
+	margin-top: none;
+	margin-right: auto;
+	margin-bottom: none;	
+	margin-left: auto;
+	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
+
+
+.FeaturedArticles{
+    margin-top: 10px;
+    margin-left: 3%;
+    position: relative;
+    width: 95%;
+    height:auto;
+    float:left;
+    overflow: hidden;
+}
+    
+h2{
+	font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+	font-size:3em;
+	color: #2080C4;
+	font-style: normal;
+    font-weight: bold;
+	letter-spacing: none;
+	line-height: 1.5em;
+}
+
+.sharkmri {
+	position: relative;
+	background-color: none;
+	width: 50%;
+    height: auto;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: none;	
+	margin-left:auto;
+	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
+
+.cartilagereplica {
+    position: relative;
+	background-color: white;
+	width: 97%;
+    height: auto;
+	margin-top: none;
+	margin-right: none;
+	margin-bottom: 20px;	
+    float: left;
+    padding-top: 10px;
+    padding-left: 3%;
+	overflow: hidden; /*fixes problem with top margin in child*/
+}
+
+.summaries{
+    position: relative;
+	background-color: white;
+	width: 90%;
+    height: auto;
+	margin-top:auto;
+	margin-right: none;
+	margin-bottom: none;	
+	margin-left: 5%;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+}
+
+h3{
+	font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+	font-size:2em;
+	color: #2080C4;
+	font-style: normal;
+    font-weight: normal;
+	letter-spacing: none;
+	line-height: 1.5em;
+    
+    
+}
+
+.readmore{
+    position: relative;
+	background-color: white;
+	width: 90%;
+    height: 40px;
+	margin-top:20px;
+	margin-right: none;
+	margin-bottom: 10px;	
+	margin-left:5%;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+}
+
+h4{
+    position: relative;
+	font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+	font-size:1.3em;
+	color: #2080C4;
+	font-style: normal;
+    font-weight: bold;
+	letter-spacing: none;
+	line-height: 1.5em;
+    
+}
+.leftshark {
+    position: relative;
+	background-color: none;
+	width: 50%;
+    height: auto;
+	margin-top: 130px;
+	margin-right: none;
+	margin-bottom: none;	
+	margin-left:200px;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
+
+
+.sharkbelow{
+    position: relative;
+	background-color: none;
+	width: 50%;
+    height: auto;
+	margin-top: 130px;
+	margin-right: none;
+	margin-bottom: none;	
+	margin-left:200px;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+	
+}
+
+.searchicon{
+    float: right;
+    width: 8%;
+    margin-top: 10px;
+    
+}
+
+.search{
+    display:none;
+}
+
+p{
+    font-family: 'Antic Slab', 'Helvetica', sans-serif;
+	font-size: 1em;
+	color: #2080C4;
+	font-style: normal;
+	letter-spacing: none;
+	line-height: 2.2em;
+}
+
+.leftsharkhero{
+    position: relative;
+	width: 70%;
+    height: auto;
+	margin-top: 10px;
+	margin-right: none;
+	margin-bottom: none;	
+	margin-left:3%;
+	overflow: hidden; /*fixes problem with top margin in child*/
+}
+
+.fauxfins{
+    margin-top: 10px;
+    margin-left: 3%;
+    position: relative;
+    width: 95%;
+    height:auto;
+    float:left;
+    overflow: hidden;
+}
+
+.sharkcartilagereplication{
+      margin-top: 10px;
+    margin-left: 3%;
+    position: relative;
+    width: 95%;
+    height:auto;
+    float:left;
+    overflow: hidden;
+}
+
+.advertisement{
+    margin-top: 10px;
+    margin-left: 3%;
+    margin right:3%;
+    position: relative;
+    width: 94%;
+    height:auto;
+    float:left;
+    overflow: hidden;
+}
+footer{
+    position: relative;
+	background-color: #1F80C4;
+	width: 100%;
+    height: 220px;
+	margin-top: 18px;
+	margin-right: none;
+	margin-bottom: none;	
+	margin-left:none;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+}
+
+.CheckUsOut{
+    position: relative;
+	width: 30%;
+    float:left;
+    height: 150px;
+	margin-top:20px;
+	margin-right: none;
+	margin-bottom: 10px;	
+	margin-left:3%;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+    border-right:white solid 1px;
+}
+
+.CheckUsOutNB{
+    position: relative;
+	width: 30%;
+    float:left;
+    height: auto;
+	margin-top:20px;
+	margin-right: none;
+	margin-bottom: 10px;	
+	margin-left:3%;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+}
+
+.pullquote {
+    width: 75%;
+    margin: 10px auto;
+    
+    
+}
+
+.pq {
+    font-style: italic;
+    
+    
+}
+
+h6{
+	font-family: 'Ubuntu Condensed', 'Helvetica', sans-serif;
+	font-size:1.2em;
+    width:100%;
+	color: white;
+	font-style: normal;
+    font-weight: normal;
+	letter-spacing: none;
+	line-height: 2.5em;
+}
+
+.footerprobs{
+    position: relative;
+	width: 50%;
+    height: auto;
+    float:left;
+	margin-right: none;
+	margin-bottom: 10px;	
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+}
+
+.footerprobs2{
+    
+    position: relative;
+	width: 80%;
+    height: auto;
+    float:right;
+	margin-right: none;
+	margin-bottom: 10px;
+    margin left:3%;
+    float: left;
+	overflow: hidden; /*fixes problem with top margin in child*/
+    
+}
+.fblogo{
+    position: relative;
+	width:30%;
+    height: auto;
+    float: left;
+	margin-top: 7px;
+	margin-right: none;
+	margin-left: 3%;
+	overflow: hidden; /*fixes problem with top margin in child*/
+    z-index: 20;
+    
+}
+
+.donatenowtwo{
+    position: relative;
+	width:50%;
+    height: auto;
+    float: left;
+    background-color:#88D0F4;
+	margin-top: 7px;
+	margin-right: none;
+	margin-left: 3%;
+	overflow: hidden; /*fixes problem with top margin in child*/
+    z-index: 20;
+}
+
+
+
+.otherarticles{
+    position: relative;
+	background-color: none;
+	width: 173px;
+    height: auto;
+	margin-top: none;
+	margin-right: auto;
+    margin-left: auto;
+	margin-bottom: 20px;	
+    padding-top: 10px;
+	overflow: hidden; /*fixes problem with top margin in child*/
+    
+}
+.bro{
+    position: relative;
+	width:50%;
+    height: auto;
+    float: right;
+	margin-top: none;
+	margin-right: none;
+	margin-left: none;
+	overflow: hidden; /*fixes problem with top margin in child*/
+    z-index: 20;
+}
+
+.blogpost{
+    float:left;
+    margin-left:3%;
+    
+    
+}
+.blogo{
+    position: relative;
+    float: left;
+    width: 90%;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: none;
+}
+
+.whatissharkfinning{
+    float:left;
+    margin-left:3%;
+}
+
+.abouthero{
+    position: relative;
+	width: 70%;
+    height: auto;
+	margin-top: 10px;
+	margin-right: none;
+	margin-bottom: none;	
+	margin-left:3%;
+	overflow: hidden; /*fixes problem with top margin in child*/
+}
+
+
+a {
+	font-size: 1em;
+	font-weight: normal;    
+	color: #2080C4;
+	font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+    font-weight:bold;
+	text-align: left;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #09AF97;
+	text-decoration: none;
+
+}
+
+
+@media screen and (min-width: 1200px)
+{
+    .sharkmri {
+        float: left;
+        width: 30%;
+        margin-left: 3%;
+    }
+    p {
+        font-size: 1em;
+        
+    }
+    
+    .searchicon{
+    float: right;
+   display:none;
+        
+}
+   
+.search{
+    display:block;
+    float:right;
+    width:10%;
+    margin-top:20px;
+}
+    
+    
+.DonateNow {
+    float:right;
+    margin-top:500px;
+    margin-right:3%;
+    margin-left:68%;
+    
+    
+   
+}
+    
